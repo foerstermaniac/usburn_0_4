@@ -1,0 +1,34 @@
+++ACHTUNG++
+Die HEX-Files wurden mit der Student-Edition des C18-Compilers erstellt.
+
+
+
+Firmware fÅr Brenner8 V 0.15
+============================
+neue Version:
+- Unterstuetzt PIC18FxxKxx am Brenner8 ueber Adapter
+- schuetzt Firmware und Kalibrierdaten vor versehntlicher Beschaedigung durch bootenden PC
+- erforderd zwingend USBurn ab Version 1.11 (Windows) bzw. usburn ab V 0.4 (linux)
+
+
+Bis zur V 0.13 waren mir die Codebasen der Firmware fuer Brenner8, Brenner9N und Brenner9L 
+"auseinandergelaufen". Es gab keinen gemeinsamen Quelltext mehr, was die Pflege komplizierte.
+Mit der internen Firmwareversion 0.14 hatte ich alle Zweige wieder in einem Quelltext vereint.
+Die offizielle V 0.15 enth‰lt nun wieder Verbesserungen und Erweiterungen.
+
+
+
+
+
+Firmware fÅr Brenner8 V 0.13
+============================
+stabile , alte Version
+
+
+
+Um die Firmware in den SteuerPIC des Brenner8 zu bekommen, muss zunaechst der Bootloader
+in den PIC gebrannt worden sein. Danach wird der PIC in den Brenner8 als SteuerPIC eingesetzt.
+Nun kann die Firmware mit US-Burn in den PIC nachgeladen werden, waehrend der PIC als SteuerPIC im Brenner8 sitzt.
+
+
+sprut
